@@ -5,7 +5,7 @@ FROM openjdk:17-jre
 WORKDIR /app
 
 # Copy the Spring Boot JAR file into the container
-COPY target/springapp-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY target/SpringBootEmp-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Create a startup script
 COPY start.sh /app/start.sh
